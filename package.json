@@ -1,0 +1,20 @@
+{
+    "name": "pen",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/pixi.js": "^5.0.0",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5"
+    },
+    "dependencies": {
+        "math-understanding-tools": "^0.5.1",
+        "pixi.js": "^6.1.3"
+    }
+}
